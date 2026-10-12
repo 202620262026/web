@@ -21,12 +21,22 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
             border-top: 5px solid #2F855A;
         }
-        h1 {
-            font-size: 2rem;
+        h1, h2 {
             color: #1A202C;
-            margin-bottom: 24px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 24px;
+        }
+        h2 {
+            font-size: 1.3rem;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #E2E8F0;
+            padding-bottom: 8px;
+            color: #2C5282;
         }
         .uvod {
             font-size: 1.15rem;
@@ -34,7 +44,7 @@
             margin-bottom: 32px;
             font-style: italic;
         }
-        .udaje {
+        .udaje, .pozvanka-box {
             background-color: #EDF2F7;
             padding: 24px;
             border-radius: 6px;
@@ -48,6 +58,27 @@
             font-weight: bold;
             color: #2D3748;
         }
+        .pozvanka-text p {
+            margin-bottom: 16px;
+        }
+        .program-list {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        .program-list li {
+            margin-bottom: 6px;
+        }
+        .podpis {
+            margin-top: 30px;
+            font-weight: bold;
+        }
+        .datum-vyveseni {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #718096;
+            border-top: 1px dashed #CBD5E0;
+            padding-top: 10px;
+        }
     </style>
 </head>
 <body>
@@ -58,7 +89,7 @@
         <p class="uvod">Vítáme Vás na oficiálních stránkách Honebního společenstva Kunice, držitele honitby s názvem Kunice.</p>
         
         <div class="udaje">
-            <p><span class="label">Honební společenstvo Kunice</span> 
+            <p><span class="label">Honební společenstvo Kunice</span></p> 
             <p><span class="label">IČ:</span> 437 52 241</p>
             <p><span class="label">Se sídlem:</span> Kunice, Na Kuničkách 32, PSČ 251 63</p>
             <p><span class="label">Registrace:</span> OSSM Říčany</p>
@@ -69,6 +100,43 @@
             <p><span class="label">Statutární orgán:</span></p>
             <p>Jiří Pačes, honební starosta</p>
             <p><span class="label">Telefon:</span> 602 335 276</p>
+        </div>
+
+        <!-- NOVÁ SEKCE S POZVÁNKOU -->
+        <h2>Pozvánka na valnou hromadu honebního společenstva</h2>
+        
+        <div class="pozvanka-text">
+            <p>Honební starosta Honebního společenstva Kunice, IČ: 437 52 241, se sídlem Na Kuničkách 32, Kunice (dále jen „HS“) svolává valnou hromadu HS, a to na <strong>30. 10. 2026 od 19:00 hod.</strong> na adrese <strong>Kunice, Na Kuničkách 16 (bývalý hostinec U Huberta)</strong>. Prezence od 18:30 hod.</p>
+            
+            <p>Účast na valné hromadě je umožněna pouze členům HS. Člen HS se může dát zastoupit zástupcem na základě písemné plné moci.</p>
+            
+            <p class="label">Program:</p>
+            <ol class="program-list">
+                <li>Zahájení a schválení programu valné hromady</li>
+                <li>Volba předsedy valné hromady</li>
+                <li>Volba zapisovatele valné hromady</li>
+                <li>Volba sčitatele valné hromady</li>
+                <li>Informace o činnosti honebního společenstva od předcházející valné hromady</li>
+                <li>Projednání a schválení nových stanov</li>
+                <li>Odvolání dosavadních členů honebního výboru</li>
+                <li>Volba nových členů honebního výboru</li>
+                <li>Zpráva o využití společenstevní honitby Kunice</li>
+                <li>Zpráva o finančním hospodaření honebního společenstva</li>
+                <li>Různé a závěr</li>
+            </ol>
+            
+            <p>Návrh nových stanov je k dispozici od vyvěšení této pozvánky do konání valné hromady u honebního starosty pana Jiřího Pačese, v sídle HS, kde po předchozí dohodě je k nahlédnutí členům HS, a dále pak po celou dobu konání valné hromady.</p>
+            
+            <p>V Kunicích dne 12. 10. 2026</p>
+            
+            <div class="podpis">
+                Jiří Pačes, v.r.<br>
+                předseda valné hromady
+            </div>
+            
+            <div class="datum-vyveseni">
+                Vyvěšeno dne: 12. 10. 2026
+            </div>
         </div>
     </div>
 
